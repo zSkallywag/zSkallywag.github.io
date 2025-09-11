@@ -13,7 +13,6 @@ const ServiceDetail = () => {
     const validServices = [
       'cybersecurity', 
       'infrastrutture-it', 
-      'comunicazione-digitale', 
       'gestione-dati', 
       'consulenza-informatica'
     ];
@@ -68,28 +67,6 @@ const ServiceDetail = () => {
         'Migliori performance e produttività'
       ],
       image: 'https://images.pexels.com/photos/325229/pexels-photo-325229.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
-    },
-    'comunicazione-digitale': {
-      title: 'Comunicazione Digitale',
-      description: 'Sviluppo web, e-commerce e strategie digitali per la crescita del tuo business.',
-      longDescription: 'La comunicazione digitale efficace è essenziale per connettersi con i clienti e distinguersi dalla concorrenza. CyberNest crea soluzioni di comunicazione digitale personalizzate che rafforzano il tuo brand, migliorano la visibilità online e generano risultati concreti.',
-      icon: <Globe size={48} className="text-accent-bright" />,
-      features: [
-        'Sviluppo siti web responsive, accessibili e ottimizzati',
-        'Piattaforme e-commerce personalizzate e intuitive',
-        'Gestione e strategia social media efficace',
-        'Campagne pubblicitarie online mirate',
-        'Email marketing e automazione della comunicazione',
-        'Analisi e ottimizzazione delle performance digitali'
-      ],
-      benefits: [
-        'Maggiore visibilità online e brand awareness',
-        'Aumento delle conversioni e delle vendite',
-        'Miglioramento dell\'esperienza utente',
-        'Comunicazione coerente su tutti i canali',
-        'ROI misurabile sulle iniziative di marketing'
-      ],
-      image: 'https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
     },
     'gestione-dati': {
       title: 'Gestione Dati',

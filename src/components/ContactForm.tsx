@@ -83,7 +83,6 @@ const ContactForm = () => {
         'general': 'Consulenza Generale',
         'cybersecurity': 'Cybersecurity',
         'infrastructure': 'Infrastrutture IT',
-        'digital': 'Comunicazione Digitale',
         'data': 'Gestione Dati',
         'consulting': 'Consulenza Informatica'
       };
@@ -263,7 +262,6 @@ Data: ${new Date().toLocaleString('it-IT', { timeZone: 'Europe/Rome' })}
                 <option value="general">Consulenza Generale</option>
                 <option value="cybersecurity">Cybersecurity</option>
                 <option value="infrastructure">Infrastrutture IT</option>
-                <option value="digital">Comunicazione Digitale</option>
                 <option value="data">Gestione Dati</option>
                 <option value="consulting">Consulenza Informatica</option>
               </select>

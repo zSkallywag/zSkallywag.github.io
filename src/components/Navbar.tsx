@@ -42,7 +42,6 @@ const Navbar = () => {
   const serviceLinks = [
     { title: 'Cybersecurity', path: '/servizi/cybersecurity' },
     { title: 'Infrastrutture IT', path: '/servizi/infrastrutture-it' },
-    { title: 'Comunicazione Digitale', path: '/servizi/comunicazione-digitale' },
     { title: 'Gestione Dati', path: '/servizi/gestione-dati' },
     { title: 'Consulenza Informatica', path: '/servizi/consulenza-informatica' },
   ];

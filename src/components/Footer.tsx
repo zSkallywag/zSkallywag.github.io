@@ -67,9 +67,6 @@ const Footer = () => {
                 <Link to="/servizi/infrastrutture-it" className="text-gray-300 hover:text-accent-bright transition-colors duration-300">Infrastrutture IT</Link>
               </li>
               <li>
-                <Link to="/servizi/comunicazione-digitale" className="text-gray-300 hover:text-accent-bright transition-colors duration-300">Comunicazione Digitale</Link>
-              </li>
-              <li>
                 <Link to="/servizi/gestione-dati" className="text-gray-300 hover:text-accent-bright transition-colors duration-300">Gestione Dati</Link>
               </li>
               <li>

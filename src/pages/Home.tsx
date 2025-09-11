@@ -23,13 +23,6 @@ const Home = () => {
       features: ['Reti e server', 'Virtualizzazione', 'Cloud e VPN']
     },
     {
-      title: 'Comunicazione Digitale',
-      description: 'Sviluppo web, e-commerce e strategie digitali per la crescita del tuo business.',
-      icon: <Globe size={32} />,
-      link: '/servizi/comunicazione-digitale',
-      features: ['Siti web', 'E-commerce', 'Social media marketing']
-    },
-    {
       title: 'Gestione Dati',
       description: 'Soluzioni di backup, disaster recovery e replica in tempo reale per i tuoi dati sensibili.',
       icon: <Database size={32} />,

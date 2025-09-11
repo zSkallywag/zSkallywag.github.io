@@ -65,7 +65,6 @@ serve(async (req) => {
       'general': 'Consulenza Generale',
       'cybersecurity': 'Cybersecurity',
       'infrastructure': 'Infrastrutture IT',
-      'digital': 'Comunicazione Digitale',
       'data': 'Gestione Dati',
       'consulting': 'Consulenza Informatica'
     }

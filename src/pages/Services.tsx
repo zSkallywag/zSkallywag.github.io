@@ -35,20 +35,6 @@ const Services = () => {
       ]
     },
     {
-      title: 'Comunicazione Digitale',
-      description: 'Migliora la tua presenza online e comunica efficacemente con i tuoi clienti attraverso soluzioni digitali personalizzate.',
-      icon: <Globe size={32} />,
-      link: '/servizi/comunicazione-digitale',
-      features: [
-        'Sviluppo siti web responsive e accessibili',
-        'Piattaforme e-commerce personalizzate',
-        'Gestione e strategia social media',
-        'Campagne pubblicitarie online',
-        'Email marketing e automazione',
-        'Analisi e ottimizzazione delle performance'
-      ]
-    },
-    {
       title: 'Gestione Dati',
       description: 'Proteggi, organizza e ottimizza i tuoi dati aziendali con soluzioni di backup, disaster recovery e gestione efficiente.',
       icon: <Database size={32} />,
