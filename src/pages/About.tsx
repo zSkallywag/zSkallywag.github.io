@@ -6,18 +6,11 @@ import Button from '../components/Button';
 const About = () => {
   const founders = [
     {
-      name: 'Pietro Cassano',
-      role: 'Co-fondatore & CTO',
-      expertise: 'AI e Front-end',
-      image: '/WhatsApp Image 2025-05-27 at 16.23.36.jpeg',
-      description: 'Esperto in intelligenza artificiale e sviluppo front-end, Pietro guida l\'innovazione tecnologica di CyberNest, combinando visione creativa e competenze tecniche avanzate.'
-    },
-    {
       name: 'Gaetano Cesano',
-      role: 'Co-fondatore & CSO',
-      expertise: 'Cybersecurity e Sistemistica',
+      role: 'Fondatore & CEO',
+      expertise: 'IT Network & Security Engineer | Vulnerability Researcher | Discovered CVE-2025-49618',
       image: '/WhatsApp Image 2025-05-27 at 14.20.45.jpeg',
-      description: 'Specialista in cybersecurity e architetture IT, Gaetano garantisce che tutte le soluzioni di CyberNest siano sicure, robuste e all\'avanguardia nel campo della protezione dei dati.'
+      description: 'IT Network & Security Engineer | Vulnerability Researcher | Discovered CVE-2025-49618'
     }
   ];
   
@@ -79,13 +72,13 @@ const About = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <SectionTitle
-            title="I Fondatori"
+            title="Il Fondatore"
             subtitle="Competenza, passione e visione al servizio dei nostri clienti."
             light
             centered
           />
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+          <div className="flex justify-center max-w-2xl mx-auto">
             {founders.map((founder, index) => (
               <motion.div
                 key={index}
@@ -105,7 +98,7 @@ const About = () => {
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold mb-1">{founder.name}</h3>
                   <p className="text-accent-bright mb-2">{founder.role}</p>
-                  <p className="text-sm text-gray-400 mb-4">Specializzazione: {founder.expertise}</p>
+                  <p className="text-sm text-gray-400 mb-4">{founder.expertise}</p>
                   <p className="text-gray-300">{founder.description}</p>
                 </div>
               </motion.div>
