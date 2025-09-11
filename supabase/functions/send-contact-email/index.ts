@@ -187,7 +187,7 @@ serve(async (req) => {
           
           <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #eee; font-size: 12px; color: #666; text-align: center;">
             <p>CyberNest - Il tuo partner per la trasformazione digitale</p>
-            <p>Via Roma 42, 70024 Gravina in Puglia (BA) | info@cybernest.it | +39 012 345 6789</p>
+            <p>Vivaio Digitale, Via Luigi Pasteur, 26, 70024 Gravina in Puglia (BA) | info@cybernest.it | +39 012 345 6789</p>
           </div>
         </div>
       </div>

@@ -20,7 +20,7 @@ const Contact = () => {
     {
       icon: <MapPin size={24} className="text-accent-bright" />,
       title: 'Indirizzo',
-      details: 'Via Roma 42, 70024 Gravina in Puglia (BA)',
+      details: 'Vivaio Digitale, Via Luigi Pasteur, 26, 70024 Gravina in Puglia (BA)',
       link: 'https://maps.google.com'
     },
     {

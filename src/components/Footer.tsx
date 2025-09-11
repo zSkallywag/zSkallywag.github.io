@@ -84,7 +84,7 @@ const Footer = () => {
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="text-accent-bright mt-1 mr-3 flex-shrink-0" />
-                <span className="text-gray-300">Via Roma 42, 70024<br />Gravina in Puglia (BA)</span>
+                <span className="text-gray-300">Vivaio Digitale, Via Luigi Pasteur, 26<br />70024 Gravina in Puglia (BA)</span>
               </li>
               <li className="flex items-center">
                 <Phone size={20} className="text-accent-bright mr-3 flex-shrink-0" />
