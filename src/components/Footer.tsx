@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, Instagram, Mail, MapPin } from 'lucide-react';
 import Logo from './Logo';
 
 const Footer = () => {
@@ -82,10 +82,6 @@ const Footer = () => {
               <li className="flex items-start">
                 <MapPin size={20} className="text-accent-bright mt-1 mr-3 flex-shrink-0" />
                 <span className="text-gray-300">Vivaio Digitale, Via Luigi Pasteur, 26<br />70024 Gravina in Puglia (BA)</span>
-              </li>
-              <li className="flex items-center">
-                <Phone size={20} className="text-accent-bright mr-3 flex-shrink-0" />
-                <a href="tel:+390123456789" className="text-gray-300 hover:text-accent-bright transition-colors duration-300">+39 012 345 6789</a>
               </li>
               <li className="flex items-center">
                 <Mail size={20} className="text-accent-bright mr-3 flex-shrink-0" />
