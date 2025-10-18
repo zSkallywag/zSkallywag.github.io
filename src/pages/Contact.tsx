@@ -5,12 +5,13 @@ import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
   const contactInfo = [
+    /*
     {
       icon: <Phone size={24} className="text-accent-bright" />,
       title: 'Telefono',
       details: '+39 012 345 6789',
       link: 'tel:+390123456789'
-    },
+    },*/
     {
       icon: <Mail size={24} className="text-accent-bright" />,
       title: 'Email',
