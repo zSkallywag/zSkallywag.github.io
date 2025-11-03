@@ -76,11 +76,11 @@ All colors MUST be HSL.
 
 @layer base {
   * {
-    @apply border-border;
+   /* @apply border-border; */
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-white text-black;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
   }
 
